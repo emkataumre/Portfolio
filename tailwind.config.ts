@@ -8,10 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        barlow: ["Barlow", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
+        "open-sans": ["Open Sans", "sans-serif"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      colors: {
+        complimentary: "#FF5F1F",
       },
     },
   },
